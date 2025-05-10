@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kolmas sivu</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    #nav ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      background-color: #333;
+    }
+    #nav ul li {
+      margin-right: 10px;
+    }
+    #nav ul li a {
+      text-decoration: none;
+      color: white;
+      padding: 10px;
+      display: block;
+    }
+    #nav ul li a:hover {
+      background-color: red;
+    }
+    .container {
+      display: flex;
+    }
+    nav.vertical-nav {
+      width: 200px;
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
+    nav.vertical-nav a {
+      display: block;
+      padding: 8px 0;
+      text-decoration: none;
+      color: #333;
+    }
+    nav.vertical-nav a:hover {
+      background-color: #ddd;
+    }
+    section.content {
+      flex: 1;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="header">
+    <h1>Urheilu Maailma - Lisää urheilusta</h1>
+  </div>
+
+  <div id="nav">
+    <ul>
+      <li><a href="index.html">Etusivu</a></li>
+      <li><a href="second.html">Urheilun hyödyt</a></li>
+      <li><a href="third.html">Lisää urheilusta</a></li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <nav class="vertical-nav">
+      <a href="https://www.google.com" target="_blank">Google</a>
+      <a href="https://www.laurea.fi" target="_blank">Laurea</a>
+    </nav>
+    <section class="content">
+      <h2>Lisää urheilusta</h2>
+      <p>Urheilusta löytyy monia hyötyjä niin keholle kuin mielelle. Tämä sivu käsittelee erilaisia urheilulajeja ja niiden vaikutuksia.</p>
+
+      <ul>
+        <li>Jalkapallo: maailman suosituin laji</li>
+        <li>Koripallo: nopeutta ja koordinaatiota</li>
+        <li>Jääkiekko: taktista peliä ja fyysistä kestävyyttä</li>
+      </ul>
+
+      <p>Säännöllinen liikunta parantaa terveyttä ja auttaa jaksamaan arjessa paremmin.</p>
+
+      <div class="div-example">
+        Muista myös palautuminen: venyttely ja riittävä uni ovat tärkeitä.
+      </div>
+    </section>
+  </div>
+
+</body>
+</html>
